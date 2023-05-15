@@ -8,7 +8,7 @@
     <script>
 
         function cylinderVolum(r, h){
-            return Math.PI*r*r*h + "㎤";
+            return Math.round(Math.PI*r*r*h) + "㎤";
         }
 
         var r = parseInt(prompt("원의 반지름 입력: ", "입력"));
